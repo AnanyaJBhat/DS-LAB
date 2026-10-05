@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-# define MAX 6
+# define MAX 4
 int queue[MAX];
 int front=-1,rear=-1;
 void enqueue(int n)
