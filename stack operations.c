@@ -45,11 +45,11 @@ int main()
     int choice;
     printf("--Stack Menu--");
      printf("\n1.Push\n2.Pop\n3.Display\n4.Exit\n");
-    printf("Enter your choice: ");
+    
 
     while (1)
     {
-       
+        printf("Enter your choice: ");
         scanf("%d", &choice);
 
         switch (choice)
