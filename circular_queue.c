@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define MAX 5
+#define MAX 4
 int c_queue[MAX];
 int front=-1,rear=-1;
 int isfull()
