@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<stdlib.h>
-#define MAX 5
+#define MAX 4
 
 int stack[MAX], top = -1;
 
@@ -43,11 +43,13 @@ void display()
 int main()
 {
     int choice;
+    printf("--Stack Menu--");
+     printf("\n1.Push\n2.Pop\n3.Display\n4.Exit\n");
+    printf("Enter your choice: ");
 
     while (1)
     {
-        printf("\n1.Push\n2.Pop\n3.Display\n4.Exit\n");
-        printf("Enter your choice: ");
+       
         scanf("%d", &choice);
 
         switch (choice)
