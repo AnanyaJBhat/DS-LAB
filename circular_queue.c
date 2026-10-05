@@ -56,6 +56,10 @@ void dequeue()
 void display()
 {
     int i;
+    if(isEmpty){
+        printf("queue is empty!\n");
+        return;
+    }
     for(i=front; ;i=(i+1)%MAX){
         printf("%d ",c_queue[i]);
         if(i==rear){
